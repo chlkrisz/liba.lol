@@ -6,9 +6,11 @@
 
 now open-source! yay 🎉
 
-[License](LICENSE.md) • [Live Site](https://liba.lol)
+[License (MPL-2.0)](LICENSE.md) • [Live Site](https://liba.lol)
 
-*Note: I will probably rewrite this sometime in some kind of framework, like React or Nuxt*
+_Note: I will probably rewrite this sometime in some kind of framework, like React or Nuxt_
+
+_**P.S.:** You are free to use this site, as long as **you credit me, the original author.** For more information, read the license._
 
 </summary>
 
