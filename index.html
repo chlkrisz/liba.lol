@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta property="og:title" content="👋 hey, I'm liba..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://liba.lol" />
+    <meta property="og:description" content="... a Hungarian full-stack developer and content creator" />
+    <meta name="theme-color" content="#121212">
+
+    <title>liba</title>
+</head>
+
+<body class="hide">
+    <div class="rain front-row"></div>
+    
+    <div class="container">
+        <h1>👋 hey, I'm liba...</h1>
+        <p>... a Hungarian full-stack developer and content creator</p>
+
+        <h1>socials</h1>
+
+        <a target="_blank" href="https://www.youtube.com/c/chlkrisz">🎥 youtube</a>
+        <a target="_blank" href="https://tiktok.com/@chlkrisz">🎥 tiktok</a>
+        <a target="_blank" href="https://github.com/chlkrisz">🧑‍💻 github</a>
+        <a target="_blank" href="https://www.instagram.com/chlkrisz/">📷 instagram</a>
+
+        <h1>services</h1>
+
+        <a target="_blank" href="https://sx.liba.lol/">🖼️ sharex server</a>
+        <!--<a target="_blank" href="https://radio.liba.lol/">📻 radio</a>-->
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/rain.js"></script>
+    <script src="js/oneko.js"></script>
+    <!--<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>-->
+    <script src="js/twemoji.min.js" crossorigin="anonymous"></script>
+    <script>
+        twemoji.parse(document.body);
+
+        $(document).ready(function(){
+            $('body').removeClass('hide');
+            $('body').addClass('fade');
+        });
+
+        /*
+        const date = new Date(Date.now());
+        const lotd = [
+            "https://www.youtube.com/watch?v=tmLMwi9XGBs",
+            "https://www.youtube.com/watch?v=BjJb42nGbgg",
+            "https://www.youtube.com/watch?v=ake5VwWvcXM",
+            "https://www.youtube.com/watch?v=3GFigxvGA8U",
+            "https://www.youtube.com/watch?v=zNhcVB_hFXA",
+            "https://www.youtube.com/watch?v=_xplE8F9gL4",
+            "https://www.youtube.com/watch?v=IIUVfQ-9IF0"
+        ]
+        const lotdEl = document.getElementById("lotd");
+        const lotdIndex = date.getDay();
+        lotdEl.setAttribute("href", lotd[lotdIndex]||lotd[0]);
+        
+        not used anymore
+        */
+    </script>
+</body>
+
+</html>
